@@ -36,4 +36,4 @@ class App extends React.Component {
     }
 }
 
-ReactDOM.render(<App appName={'React Material'} themes={themes} />, document.querySelector('#root'));
+ReactDOM.render(<App appName={'Suspenders'} themes={themes} />, document.querySelector('#root'));
