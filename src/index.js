@@ -4,6 +4,7 @@ import { ThemeProvider, Container } from '@material-ui/core';
 
 import themes from './theme';
 import Nav from './components/Nav';
+import Image from './components/Image';
 
 class App extends React.Component {
     constructor(props) {
@@ -30,6 +31,15 @@ class App extends React.Component {
                         themes={this.props.themes}
                         setTheme={this.setTheme}
                     />
+                    <div
+                        style={{
+                            position: 'absolute',
+                            left: '400px',
+                            top: '20%',
+                        }}
+                    >
+                        <Image />
+                    </div>
                 </Container>
             </ThemeProvider>
         )
